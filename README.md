@@ -1,4 +1,4 @@
-https://i.ibb.co/c1qB1Mw/Prius-Pilot.png
+[![](https://i.ibb.co/c1qB1Mw/Prius-Pilot.png)](#)
 
 Welcome to PriusPilot!
 ==========================
