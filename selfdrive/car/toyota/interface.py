@@ -27,7 +27,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.init('pid')
       ret.lateralTuning.pid.kiBP, ret.lateralTuning.pid.kpBP = [[0.], [0.]]
 
-    if candidate == CAR.PRIUS:
+    if candidate in [CAR.PRIUS, CAR.PRIUS_2010]:
       stop_and_go = True
       ret.safetyParam = 66  # see conversion factor for STEER_TORQUE_EPS in dbc file
       ret.wheelbase = 2.70
